@@ -9,19 +9,118 @@ body{
 }
 
 .foto{
-    margin: 10px;
+    margin: 80px 10px 10px 60px;
     padding-top: 10px;
-    border-radius: 8px;
+    border-radius: 50px;
+    width: 50%;
+    height: 10%;
 }
 
-.encabezado p{
-   width: 20%; 
+.encabezado{
+    width: 300px;
+    padding-left: 15px;
+}
+
+.encabezado h3{
+    /* width: 12%; */
+    text-align: center;
 }
 
 .cuerpo{
     display: flex;
+    flex-direction: column;
 }
 
 .contenedor{
+    width: 600px;
     display: flex;
+    /* flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center; */
+}
+
+.contenedor p{
+    width: 250px;
+    /* text-align: center; */
+    padding: 5px;
+}
+
+/* .containedorPortafolio{
+    background-image: url(../imgs/foto-header.jpg);
+} */
+
+.titulo{
+    margin-top: 100px;
+}
+
+.educacion{
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.educacion_1{
+    display: flex;
+}
+
+.educacion_2{
+    display: flex;
+}
+
+.educacion_3{
+   padding: 0px 0px 0px 10px; 
+   display: flex;
+
+}
+
+.educacion_4{
+    display: flex;
+    text-align: start;
+    /* margin-left: -58px; */
+}
+
+.ingeniero{
+    margin-left: 20px;
+}
+.divisor{
+    width: 100%;
+}
+
+.laboral{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 300px;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 500px;
+}
+
+.laboral_4{
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.laboral_3{
+    display: flex;
+}
+
+.laboral_2{
+    display: flex;
+    padding-left: 30%;
+}
+
+.laboral_1{
+    display: flex;
+}
+
+#anyo{
+    /* padding-left: 10px; */
+}
+
+#proyecto{
+    /* padding-left: 30px; */
+    /* padding-left: -15px; */
 }
