@@ -132,12 +132,13 @@ body{
 .cabecera{
     background-image: url('../imgs/foto-header.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: cover;
 }
 
 .card{
-    width: 28rem;
+    width: 18rem;
+    height: 18rem;
 }
 
 .card-title{
@@ -145,10 +146,22 @@ body{
 }
 
 .foto_1{
-    width: 400px;
+    width: 250px;
 }
 
 .botones{
     display: flex;
     justify-content: space-evenly;
+}
+
+.iguana{
+    height: 115px;
+}
+
+.titulo_proyectos{
+    padding-bottom: -10px;
+}
+
+.contenedor{
+    
 }
