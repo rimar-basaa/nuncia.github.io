@@ -26,6 +26,10 @@ body{
     text-align: center;
 }
 
+.icono_1{
+    padding-left: -20px;
+}
+
 .cuerpo{
     display: flex;
     flex-direction: column;
@@ -123,4 +127,28 @@ body{
 #proyecto{
     /* padding-left: 30px; */
     /* padding-left: -15px; */
+}
+
+.cabecera{
+    background-image: url('../imgs/foto-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card{
+    width: 28rem;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.foto_1{
+    width: 400px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
 }
