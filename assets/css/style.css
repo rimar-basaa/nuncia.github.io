@@ -120,15 +120,6 @@ body{
     display: flex;
 }
 
-#anyo{
-    /* padding-left: 10px; */
-}
-
-#proyecto{
-    /* padding-left: 30px; */
-    /* padding-left: -15px; */
-}
-
 .cabecera{
     background-image: url('../imgs/foto-header.jpg');
     background-repeat: no-repeat;
