@@ -4,7 +4,7 @@ body{
 }
 
 .imagen{
-    width: 5px;
+    width: 2%;
     height: 25px;
 }
 
@@ -18,7 +18,12 @@ body{
 
 .encabezado{
     width: 300px;
-    padding-left: 15px;
+    /* width: 100%; */
+}
+
+.encabezado-colaborativo{
+    height: 120px;
+    width: 280px;
 }
 
 .encabezado h3{
@@ -120,16 +125,39 @@ body{
     display: flex;
 }
 
-.cabecera{
+#anyo{
+    /* padding-left: 10px; */
+}
+
+#proyecto{
+    /* padding-left: 30px; */
+    /* padding-left: -15px; */
+}
+
+/* .cabecera{
     background-image: url('../imgs/foto-header.jpg');
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
-}
+} */
 
 .card{
     width: 18rem;
     height: 18rem;
+    overflow:hidden;
+    margin: auto;
+    transition: all .4s ease-in-out;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0,0.3);
+    text-align: center;
+    background: linear-gradient(-135deg, #fcfafb, #f3f4f7);
+}
+
+.card:hover{
+    height: 28rem;
+    will-change: 28rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0,0.5);
+    transform: translateY(-3%);
 }
 
 .card-title{
@@ -138,6 +166,7 @@ body{
 
 .foto_1{
     width: 250px;
+
 }
 
 .botones{
@@ -156,4 +185,17 @@ body{
 
 .cuppon{
     width: 100%;
+}
+
+.agrandar{
+
+
+}
+
+.desplazar{
+
+}
+
+.pie{
+    color: #707070;
 }
